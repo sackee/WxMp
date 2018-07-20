@@ -9,7 +9,7 @@ class WxCofig {
     //微信公众平台 AppSecret
     const   APPSECRET = "xxx";
     //微信公众平台nonce_str
-    const   NONCE_STR = "Wm3WZYTPz0wzccnW";
+    const   NONCE_STR = "xxx";
     //接口链接地址
     const   API_URL = "https://api.weixin.qq.com/cgi-bin/";
     //文档链接地址
