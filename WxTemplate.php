@@ -1,6 +1,4 @@
 <?php
-use Think\Auth;
-
 require_once dirname(__FILE__)."/WxException.php";
 require_once dirname(__FILE__)."/WxConfig.php";
 require_once dirname(__FILE__)."/WxCache.php";

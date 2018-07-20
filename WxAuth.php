@@ -1,6 +1,4 @@
 <?php
-use Home\Model\UserMemberModel;
-
 require_once dirname(__FILE__)."/WxException.php";
 require_once dirname(__FILE__)."/WxConfig.php";
 require_once dirname(__FILE__)."/WxCache.php";
@@ -162,10 +160,6 @@ class WxAuth {
     
         unset($res['access_token']);
         unset($res['refresh_token']);
-        
-        //新用户
-        $model = new UserMemberModel();
-        $res['uid'] = $model->newUser($res);
         
         WxCache::put(self::USER_INFO_CACHE . $state, $res, 2592000);
         return $res;
