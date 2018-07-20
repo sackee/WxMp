@@ -3,11 +3,11 @@
 class WxCofig {
     
     //微信公众平台 token
-    const   TOKEN = 'loonxi';
+    const   TOKEN = 'xxx';
     //微信公众平台appid
-    const   APPID = "wx2e97a35c9398b8e6";
+    const   APPID = "xxx";
     //微信公众平台 AppSecret
-    const   APPSECRET = "2ff7f7fd47ad925f2fd05eeb90daa56f";
+    const   APPSECRET = "xxx";
     //微信公众平台nonce_str
     const   NONCE_STR = "Wm3WZYTPz0wzccnW";
     //接口链接地址
